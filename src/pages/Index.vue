@@ -1,7 +1,7 @@
 <template>
   <div class="colo">
     <h2 id="bold">session one</h2><br/>
-    <p>Hello {{ name }} {{ lastname }}, we are learning vue!</p>
+    <p>Hello {{ name }} {{ lastname }}, we are learning vue! it is freaking hard</p>
     <input :value="name" @input="clickon()" ref="zz">
     <input :value="lastname" @input="clickon()" ref="la">
   </div>
