@@ -1,10 +1,8 @@
 <template>
-  <div class="colo">
-    <h2 id="bold">session one</h2><br/>
-    <p>Hello {{ name }} {{ lastname }}, we are learning vue! it is freaking hard and fun</p>
-    <input :value="name" @input="clickon()" ref="zz">
-    <input :value="lastname" @input="clickon()" ref="la">
-  </div>
+  <q-page>
+    <div>
+
+    </div>
 </template>
 <style scoped>
 .colo {
@@ -16,22 +14,3 @@
 font-weight: bold;
 }
 </style>
-
- <script>
-  export default {
-    name:"v1",
-    data() {
-      return {
-        name : "saeed",
-        lastname : "moqadam",
-      }
-    },
-    methods : {
-      clickon() {
-        this.name = this.$refs.zz.value;
-        this.lastname = this.$refs.la.value
-      }
-    }
-
-  }
- </script>
